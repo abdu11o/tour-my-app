@@ -1,10 +1,13 @@
+import Banner from "../components/Banner"
+import Grid from "../components/GridImg"
 import Navbar from "../components/Navbar"
 
 const Home = () =>{
     return(
         <div>
             <Navbar/>
-            <h1>Home page</h1>
+            <Banner/>
+            <Grid/>
         </div>
     )
 }
